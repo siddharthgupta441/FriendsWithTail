@@ -1,15 +1,17 @@
 <resources>
-    <string name="app_name">Login App</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="swipe_left_for_register">Swipe Left for Register</string>
-    <string name="login">Login</string>
-    <string name="password">Password</string>
-    <string name="e_mail">Email</string>
-    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
-    <string name="swipe_right_for_login">Swipe Right for Login</string>
-    <string name="register">Register</string>
-    <string name="re_type_password">Re-type Password</string>
-    <string name="your_name">Full Name</string>
+    <string name="app_name">FriendsWithTail</string>
+    <string name="pets">Pets</string>
+    <string name="about_us">About us</string>
+    <string name="nearby_petshop">Nearby Petshop</string>
+    <string name="tag">tag</string>
+    <string name="swipe_left_for_register">swipe_left_for_register</string>
+    <string name="e_mail">e_mail</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="right_arrow">right arrow</string>
+    <string name="re_type_password">re_type_password</string>
+    <string name="swipe_right_for_login">swipe_right_for_login</string>
+    <string name="register">register</string>
+    <string name="your_name">your_name</string>
+    <string name="left_arrow">left arrow</string>
 </resources>
