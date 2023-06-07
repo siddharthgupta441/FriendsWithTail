@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "464169164383",
+    "project_id": "shukla-a5f45",
+    "storage_bucket": "shukla-a5f45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464169164383:android:7ebb99bbfd9039bd1245ea",
+        "android_client_info": {
+          "package_name": "com.example.friendswithtail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464169164383-62udl29hddsqohsb0mouubpfb2hng0pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.friendswithtail",
+            "certificate_hash": "f3d36223d43b57d9dc1ae08c37ae3868b27975d6"
+          }
+        },
+        {
+          "client_id": "464169164383-8e051kqr4050gkme7hjpvldsrlnnolhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAODCu7DQOrv1Jn0dbF7ZCbiOwjvvfdn6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464169164383-8e051kqr4050gkme7hjpvldsrlnnolhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
