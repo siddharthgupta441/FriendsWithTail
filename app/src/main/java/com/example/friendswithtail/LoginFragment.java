@@ -53,15 +53,6 @@ public class LoginFragment extends Fragment {
             public void onClick(View v) {
                 email = e_mail.getText().toString();
                 password = pass.getText().toString();
-                /*if(Objects.equals(email, "shukla") && password.equals("1234")){
-                    //Toast.makeText(getActivity(), "kmnv", Toast.LENGTH_LONG).show();
-                    Intent intent = new Intent(getActivity(), MainActivity2.class);
-                    startActivity(intent);
-                    //getActivity().finish();
-                }
-                else{
-                    Toast.makeText(getActivity(), "wrong credential", Toast.LENGTH_LONG).show();
-                }*/
 
                 db = FirebaseDatabase.getInstance().getReference().child("user");
                 db.addValueEventListener(new ValueEventListener() {
@@ -77,7 +68,7 @@ public class LoginFragment extends Fragment {
                             if(Objects.equals(email, db_email[0]) && Objects.equals(password, db_password[0])){
                                 Intent intent = new Intent(getActivity(), MainActivity2.class);
                                 startActivity(intent);
-                                //getActivity().finish();
+                                getActivity().finish();
                             }
                             else
                                 Toast.makeText(getActivity(), "wrong credential", Toast.LENGTH_LONG).show();
