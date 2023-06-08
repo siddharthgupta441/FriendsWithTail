@@ -14,4 +14,6 @@
     <string name="register">register</string>
     <string name="your_name">your_name</string>
     <string name="left_arrow">left arrow</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
 </resources>

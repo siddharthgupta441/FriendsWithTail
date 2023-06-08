@@ -13,4 +13,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Circular">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="rectangular">
+        <item name="cornerSize">5%</item>
+    </style>
+
 </resources>
