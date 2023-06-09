@@ -24,7 +24,7 @@
                 android:src="@drawable/dog_button_cover"
                 android:background="@drawable/custom_button"
                 android:scaleType="centerInside"
-                android:contentDescription="@string/btn"/>
+                android:contentDescription="@string/btn" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
