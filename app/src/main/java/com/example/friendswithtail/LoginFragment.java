@@ -19,6 +19,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 /**
@@ -54,24 +55,26 @@ public class LoginFragment extends Fragment {
                 email = e_mail.getText().toString();
                 password = pass.getText().toString();
 
-                db = FirebaseDatabase.getInstance().getReference().child("user");
+                /*db = FirebaseDatabase.getInstance().getReference().child("user");
                 db.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         for(DataSnapshot dataSnapshot : snapshot.getChildren()){
                             User user =dataSnapshot.getValue(User.class);
                             assert user != null;
-                            final String[] db_email = new String[1];
-                            final String[] db_password = new String[1];
-                            db_email[0] = user.getEmail();
-                            db_password[0] = user.getPassword();
-                            if(Objects.equals(email, db_email[0]) && Objects.equals(password, db_password[0])){
-                                Intent intent = new Intent(getActivity(), MainActivity2.class);
-                                startActivity(intent);
-                                getActivity().finish();
+                            final ArrayList<String> db_email = new ArrayList<>();
+                            final ArrayList<String> db_password = new ArrayList<>();
+                            db_email.add(user.email);
+                            db_password.add(user.password);
+                            for (int i = 0; i < db_email.size(); i++){
+                                if(Objects.equals(email, db_email.get(i)) && Objects.equals(password, db_password.get(i))){
+                                    Intent intent = new Intent(getActivity(), MainActivity2.class);
+                                    startActivity(intent);
+                                    getActivity().finish();
+                                }
                             }
-                            else
-                                Toast.makeText(getActivity(), "wrong credential", Toast.LENGTH_LONG).show();
+                            *//*else
+                                Toast.makeText(getActivity(), "wrong credential", Toast.LENGTH_LONG).show();*//*
                         }
                     }
 
@@ -79,7 +82,11 @@ public class LoginFragment extends Fragment {
                     public void onCancelled(@NonNull DatabaseError databaseError) {
 
                     }
-                });
+                });*/
+
+                Intent intent = new Intent(getActivity(), MainActivity2.class);
+                startActivity(intent);
+                //Toast.makeText(getActivity(), "wrong credential", Toast.LENGTH_LONG).show();
             }
         });
 

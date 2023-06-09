@@ -16,4 +16,7 @@
     <string name="left_arrow">left arrow</string>
     <string name="navigation_drawer_open">open navigation drawer</string>
     <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="event">event</string>
+    <string name="report">report</string>
+    <string name="btn">btn</string>
 </resources>
